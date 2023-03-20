@@ -143,7 +143,7 @@ h5{
 
 .section_a_screen_text
 {
-	padding: 20px 10px 15px 20px;
+	padding: 20px 20px 15px 20px;
 }
 
 .dev_tips_img{
@@ -591,7 +591,7 @@ margin-right:15px;
 	display:flex; justify-content:space-between; position: absolute; top:35%; width:100%;
 }
 .img_navigation img
-{
+{   width: 37px;
 	cursor: pointer;
 }
 
@@ -1584,8 +1584,17 @@ button:focus {outline:0;}
 		font-size: 28px;
 	}
 
+	.img_navigation img {
+		width: 25px;
+	}
+
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+.img_navigation img {
+    width: 25px;
+}
+}
 
 
 
