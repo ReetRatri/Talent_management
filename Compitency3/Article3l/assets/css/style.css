@@ -1,0 +1,436 @@
+
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+p{
+	line-height: inherit;
+	;
+	line-height: 1.4;
+    /* margin-bottom: 20px; */
+}
+
+h2{
+	font-size: 26px;
+}
+h5{
+	font-size: 18px;
+}
+.for_color{
+	color:#00D1D2
+}
+.accord_li{
+	color:#00D1D2
+
+
+}
+.link300
+{
+	color:#FFF;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.link300:hover
+{
+	/* color:#FFF; */
+	font-weight: bold;
+	text-decoration: none;
+	color: #1D9ADD;
+
+}
+.link3:hover
+{
+	text-decoration: none;
+
+}
+.on_mobile_text{
+	display: none;
+}
+.logo_width
+{
+
+}
+.logo_width img{
+	width: 100%;
+}
+.link3 img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+.link4{
+	text-decoration: none;
+	color:#1D9ADD;
+}
+.link4:hover{
+	text-decoration: none;
+}
+.link4_0{
+	text-decoration: none;
+	color:#000;
+}
+.link4_0:hover{
+	text-decoration: none;
+	color: #00D1D2;
+}
+.section_a_screen_text{
+	padding: 20px 20px 15px 20px;
+}
+
+.dev_tips_img{
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 25px 5px 25px;;
+}
+.dev_tips_img .dev_tips_img_area{
+	width: 140px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.dev_tips_img span{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.dev_tips_img .section_a_divider{
+	width: 1px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.dev_tips_img .section_a_divider .line
+{
+	width: 1px;
+	height: 100%;
+	background-color: #00D1D2;
+}
+.container{
+	margin-bottom: 0;
+	border-radius: 0;
+	 font-family: Arial, sans-serif;
+	font-size:14px;
+	color:#34303D;
+	max-width: 1320px;
+
+	/* padding: 0 10%; */
+}
+.heading{
+	margin:0px auto 20px auto;
+}
+
+.heading span{
+	/* color:#A51890; */
+	font-size: 14px;
+	/* font-style: italic; */
+}
+.img100{
+	width: 100%;
+}
+.sec{
+	margin-top: 30px;
+}
+
+.global_padding
+{
+	padding: 20px 30px 20px 30px;
+}
+
+.header{
+
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 3px;
+	box-shadow: 1px 1px 20px  rgb(0 0 0 / 10%);
+	/* margin-top: 10px; */
+	margin-bottom: 10px;
+}
+.logo_width
+{
+	width: 190px;
+	padding: 5px;
+}
+
+.banner{
+	width: 100%;
+	min-height: 500px;
+	max-height: 100%;
+	background-image: url("../images/Personal\ EffectivenessWillingness\ to\ Learn_Comp1.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 20px;
+}
+
+ .banner .logo{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.banner h1{
+	font-weight: bold;
+	color: #fff;
+	font-size: 40px;
+	width: 100%;
+    text-align: left;
+	color: #00D1D2;
+
+}
+.banner h2{
+
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+	margin-bottom: 20px!important;
+	line-height: 1.2;
+}
+.banner h3{
+
+
+	color: #fff;
+	font-size: 20px;
+	width: 100%;
+    text-align: left;
+	position: relative;
+	margin-bottom: 20px!important;
+	line-height: 1.2;
+
+}
+.banner h3 span{
+	color: #00D1D2; ;
+	font-weight: bold;
+
+}
+
+.banner h4{
+	font-family: '';
+	font-weight: normal;
+	color: #fff;
+	top:55%;
+	font-size: 18px;
+	width: 100%;
+    text-align: left;
+	position: relative;
+	padding-left:20px;
+	padding-left:20px;
+	line-height: 30px;
+
+}
+.banner .banner_text
+{
+	color:#FFF;
+	line-height:26px;
+	width: 44%;
+	font-size: 14px;
+}
+.banner .banner_text ul
+{
+	margin-left: 16px;
+}
+.banner_text_bold
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #00D1D2;
+}
+
+.s_bullet{
+margin-left:15px;
+margin-right:15px;
+
+}
+
+
+.section_a{
+	background-color: rgb(0 209 210 / 10%);;
+	height: auto;
+}
+
+
+.img_navigation
+{
+	display:flex; justify-content:space-between; position: absolute; top:39.5%; width:100%;
+}
+.img_navigation img
+{
+	cursor: pointer;
+	width: 37px;
+}
+
+.img_navigation_dot1
+{
+	width: 8px; height:8px; border-radius:50%; background-color:#00D1D2; margin:5px;
+}
+
+.img_navigation_dot2
+{
+	width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 5px;
+
+}
+
+.img_navigation_dot3
+{
+	width: 8px; height:8px; border-radius:50%; background-color:#ccc; margin:5px;
+}
+.img_navigation_dot4 , .img_navigation_dot5 ,.img_navigation_dot6 , .img_navigation_dot7
+{
+	width: 8px; height:8px; border-radius:50%; background-color:#ccc; margin:5px;
+}
+
+.link2
+{
+	text-decoration: none;
+	color: #000;
+}
+.link2:hover
+{
+	text-decoration: none;
+}
+.header-text {
+    position: absolute;
+
+    width: 40%;
+    color: #fff;
+}
+
+.header-text p{
+	font-size: 18px;
+
+}
+.page1_header h1{
+
+	font-weight: bold;
+	color: #34303d;
+	font-size: 40px;
+	width: 100%;
+    text-align: left;
+	margin-bottom: 5px;
+
+
+    /* transform: translateX(-50%); */
+}
+.page1_header h3{
+
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	width: 100%;
+    text-align: left;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 25px;
+    /* transform: translateX(-50%); */
+}
+
+/* i-pad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px)
+{
+	.banner h1, .banner h2, .banner .banner_text
+	{
+		width: 50%;
+	}
+	.img_navigation img
+	{
+		width: 25px;
+	}
+	.banner .banner_text
+	{
+		color:#FFF;
+		line-height:25px;
+		width: 90%;
+		font-size: 14px;
+	}
+
+}
+
+/* On small screens, set height to 'auto' for LeftColumn and grid */
+@media screen and (max-width: 767px) {
+	.banner{
+		width: 100%;
+		min-height: 500px;
+		max-height: 100%;
+		background-image: url("../images/Personal\ EffectivenessWillingness\ to\ Learn_Comp2.png");
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+		padding: 20px;
+		background-position: 70%;
+	}
+
+	.page1_header h1{
+		font-size: 30px;
+	}
+
+	.banner .banner_text
+	{
+		color:#FFF;
+		line-height:25px;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.section_a .dev_tips_img
+	{
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.section_a .dev_tips_img .dev_tips_img_area
+	{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.dev_tips_img .section_a_divider
+	{
+		display: none;
+	}
+	.banner h1{
+		font-size: 28px;
+	}
+
+	.banner h3
+	{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.img_navigation
+	{
+		top: 39.5%;
+	}
+	.img_navigation img
+	{
+		width:25px
+	}
+
+.logo_width
+{
+	width: 60%;
+}
+
+
+}
+
+
+
